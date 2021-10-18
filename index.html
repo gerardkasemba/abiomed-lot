@@ -72,15 +72,15 @@
         <div class="container">
         <header></header>
             <div class="main">
-                <div class="leftside">
-                    <div class="box">
+                <div class="leftside row">
+                    <div class="box col-md-6">
                         <h1>Select File</h1>
                         <ul>
                             <li  class="pointer btn_file" onclick="return load_page('template/5.5.html', 1)">5.5 PDF file</li>
                             <li  class="pointer btn_file" onclick="return load_page('template/C8-Lot Traveller.html', 2)">C8 PDF file</li>
                         </ul>
                     </div>
-                    <div class="box">
+                    <div class="box col-md-4">
                         <h1>Input</h1>
                         <ul>
                             <li class="pointer" >
@@ -91,12 +91,14 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="box">
+                    <div class="box col-md-4">
                         <h1>Control</h1>
-                        <button class="pointer btn_save btn" onclick="change()" style="color: #fff;">Add #</button>
-                        <button class="pointer btn_print btn" onclick="func_print()" style="color:#222;"> Print </button>
+                        <button class="pointer btn btn-primary btn-md" onclick="change()" style="color: #fff;">Add #</button>
+                        <button class="pointer btn btn-secondaryt btn-md" onclick="func_print()" style="color:#222;"> Print </button>
                     </div>
                 </div>
+            </div>
+            <div class="">
                 <div class="middle" id="middle">
                     <iframe id="content" class="content" >
                     </div>
