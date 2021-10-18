@@ -71,30 +71,32 @@
     <body>
         <div class="containers">
         <header></header>
-            <div class="container">
-                <div class="row">
-                    <div class="box col-md-4">
-                        <h1 style="color:#222;">Select File</h1>
-                        <ul style="padding: 0;">
-                            <li  class="pointer btn_file" onclick="return load_page('template/5.5.html', 1)">5.5 PDF file</li>
-                            <li  class="pointer btn_file" onclick="return load_page('template/C8-Lot Traveller.html', 2)">C8 PDF file</li>
-                        </ul>
-                    </div>
-                    <div class="box col-md-4">
-                        <h1 style="color:#222;">Input</h1>
-                        <ul style="padding: 0;">
-                            <li class="pointer" >
-                                <span>Order #</span><input type="text" id="number" class="form-control"/>
-                            </li>
-                            <li class="pointer" >
-                                <span>Date:</span><input type="date" id="date" class="form-control"/>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="box col-md-4">
-                        <h1 style="color:#222;">Control</h1>
-                        <button class="pointer btn btn-primary btn-md" onclick="change()" style="">Add #</button>
-                        <button class="pointer btn btn-secondary btn-md" onclick="func_print()" style=""> Print </button>
+            <div style="background-color: #f5f6fa; border-bottom: 1px solid #dcdde1;">
+                 <div class="container" style="background-color:#a1a1a1;">
+                    <div class="row">
+                        <div class="box col-md-4">
+                            <h1 style="color:#222;">Select File</h1>
+                            <ul style="padding: 0;">
+                                <li  class="pointer btn_file" onclick="return load_page('template/5.5.html', 1)">5.5 PDF file</li>
+                                <li  class="pointer btn_file" onclick="return load_page('template/C8-Lot Traveller.html', 2)">C8 PDF file</li>
+                            </ul>
+                        </div>
+                        <div class="box col-md-4">
+                            <h1 style="color:#222;">Input</h1>
+                            <ul style="padding: 0;">
+                                <li class="pointer" >
+                                    <span>Order #</span><input type="text" id="number" class="form-control"/>
+                                </li>
+                                <li class="pointer" >
+                                    <span>Date:</span><input type="date" id="date" class="form-control"/>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box col-md-4">
+                            <h1 style="color:#222;">Control</h1>
+                            <button class="pointer btn btn-primary btn-md" onclick="change()" style="">Add #</button>
+                            <button class="pointer btn btn-secondary btn-md" onclick="func_print()" style=""> Print </button>
+                        </div>
                     </div>
                 </div>
             </div>
